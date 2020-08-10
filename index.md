@@ -1,9 +1,9 @@
 
 # Tutorials
-[Tools](https://alkanetsmorgas.github.io/Eden-2.0/#add-to-tools)
+[Tools](https://alkanetsmorgas.github.io/Eden-2.0/#add-a-tool-to-the-menu)
 
 
-## Add to tools
+## Add a tool to the menu
 ### Basic Structure
 All tools need to be specifed in the class Display3DENALK_Tools.<br/>
 They need to belong to a Category class. <br/> 
