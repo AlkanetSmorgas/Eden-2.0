@@ -51,10 +51,10 @@ class Time
 ```
 ### Settings
 You can also add settings to your tools. You specify it in the category.<br/>
-type - For now, only Edit is working.<br/>
-value - the default value to use.<br/>
-valueType - Number = convert to number.<br/>
-saveTo - variabel in missionnamespace to save the data to.
+**type** - For now, only Edit is working.<br/>
+**value** - the default value to use.<br/>
+**valueType** - Number = convert to number.<br/>
+**saveTo** - variabel in missionnamespace to save the data to.
 ```markdown
 class Modifiers {
 	class Attributes{
@@ -74,18 +74,18 @@ class Modifiers {
 ### onChange
 When ever the control is clicked or changed. Data stored in _this variabel.<br/>
 Accepted controls: _this<br/>
-Button: [_control].<br/>
-Editbox:[_control,_text].<br/>
-Slider: [_control,_sliderValue]<br/>
-Combo, Listbox [_control,_text,_value]<br/>
-Toolbox: [_control,_value]<br/>
-Checkbox: [_control,_value,_isChecked]<br/>
+**Button**: [_control].<br/>
+**Editbox**:[_control,_text].<br/>
+**Slider**: [_control,_sliderValue]<br/>
+**Combo, Listbox** [_control,_text,_value]<br/>
+**Toolbox**: [_control,_value]<br/>
+**Checkbox**: [_control,_value,_isChecked]<br/>
 ```markdown
 onChange="_this call AlkFrameWork_3DEN_Toolbar_fnc_setTimeDay;";
 ```
 ### Checkbox
-Strings[] - Is required for checbkox.<br/>
-values[] - The value returned in _this. Only number.
+**Strings[]** - Is required for checbkox.<br/>
+**values[]** - The value returned in _this. Only number.
 ```markdown
 class ValueX: ctrlCheckboxToolbar
 {
@@ -95,7 +95,7 @@ class ValueX: ctrlCheckboxToolbar
 };
 ```
 ### Button
-text - Text displayed on the button.
+**text** - Text displayed on the button.
 ```markdown
 class ValueX: ctrlButton
 {
@@ -104,7 +104,7 @@ class ValueX: ctrlButton
 };
 ```
 ### Combo
-values[] - The values to display and returned in _this. Only strings.
+**values[]** - The values to display and returned in _this. Only strings.
 ```markdown
 class ValueX: ctrlCombo
 {
