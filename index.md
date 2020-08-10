@@ -5,8 +5,8 @@
 
 ## Add to tools
 ### Basic Structure
-All tools need to be specifed in the class Display3DENALK_Tools.
-They need to belong to a Category class.  
+All tools need to be specifed in the class Display3DENALK_Tools.<br/>
+They need to belong to a Category class. <br/> 
 The category class then need to have a Attributes class where all your tools can be added.
 ```markdown
 class Display3DENALK_Tools {
@@ -21,7 +21,7 @@ class Display3DENALK_Tools {
 };
 ```
 ### Tool structure
-All tools need to be surrounded by a class. All classes inside will be treated like a control.  
+All tools need to be surrounded by a class. All classes inside will be treated like a control. <br/> 
 You are free to add whatever controls you want but we recomend to only use a text control and a value control.  
 ```markdown
 class Time
@@ -49,10 +49,10 @@ class Time
 };
 ```
 ### Settings
-You can also add settings to your tools. You specify it in the category.
-type - For now, only Edit is working.
-value - the default value to use.
-valueType - Number = convert to number.
+You can also add settings to your tools. You specify it in the category.<br/>
+type - For now, only Edit is working.<br/>
+value - the default value to use.<br/>
+valueType - Number = convert to number.<br/>
 saveTo - variabel in missionnamespace to save the data to.
 ```markdown
 class Modifiers {
@@ -71,19 +71,19 @@ class Modifiers {
 };
 ```
 ### onChange
-When ever the control is clicked or changed. Data stored in _this variabel.
-Accepted controls: _this
-Button: [_control].
-Editbox:[_control,_text].
-Slider: [_control,_sliderValue]
-Combo, Listbox [_control,_text,_value]
-Toolbox: [_control,_value]
-Checkbox: [_control,_value,_isChecked]
+When ever the control is clicked or changed. Data stored in _this variabel.<br/>
+Accepted controls: _this<br/>
+Button: [_control].<br/>
+Editbox:[_control,_text].<br/>
+Slider: [_control,_sliderValue]<br/>
+Combo, Listbox [_control,_text,_value]<br/>
+Toolbox: [_control,_value]<br/>
+Checkbox: [_control,_value,_isChecked]<br/>
 ```markdown
 onChange="_this call AlkFrameWork_3DEN_Toolbar_fnc_setTimeDay;";
 ```
 ### Checkbox
-Strings[] - Is required for checbkox.
+Strings[] - Is required for checbkox.<br/>
 values[] - The value returned in _this. Only number.
 ```markdown
 class ValueX: ctrlCheckboxToolbar
