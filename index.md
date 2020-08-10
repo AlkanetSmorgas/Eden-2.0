@@ -48,6 +48,28 @@ class Time
 
 };
 ```
+### Settings
+You can also add settings to your tools. You specify it in the category.
+type - For now, only Edit is working.
+value - the default value to use.
+valueType - Number = convert to number.
+saveTo - variabel in missionnamespace to save the data to.
+```markdown
+class Modifiers {
+	class Attributes{
+		......
+	};
+	class Settings {
+		class RotationSpeed {
+			type = "Edit";
+			name="Rotation Speed";
+			value = "10";
+			valueType = "Number";
+			saveTo ="AlkFrameWork_3DEN_rotateMouseWheel_Speed";
+		};
+	};
+};
+```
 ### onChange
 When ever the control is clicked or changed. Data stored in _this variabel.
 Accepted controls: _this
@@ -90,28 +112,6 @@ class ValueX: ctrlCombo
 };
 ```
 
-### Settings
-You can also add settings to your tools. You specify it in the category.
-type - For now, only Edit is working.
-value - the default value to use.
-valueType - Number = convert to number.
-saveTo - variabel in missionnamespace to save the data to.
-```markdown
-class Modifiers {
-	class Attributes{
-		......
-	};
-	class Settings {
-		class RotationSpeed {
-			type = "Edit";
-			name="Rotation Speed";
-			value = "10";
-			valueType = "Number";
-			saveTo ="AlkFrameWork_3DEN_rotateMouseWheel_Speed";
-		};
-	};
-};
-```
 
 ### Example
 ```
