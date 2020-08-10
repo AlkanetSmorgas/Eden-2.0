@@ -6,7 +6,7 @@
 ## Add to tools
 ### Basic Structure
 All tools need to be specifed in the class Display3DENALK_Tools.
-They need to belong to a Category class.
+They need to belong to a Category class.  
 The category class then need to have a Attributes class where all your tools can be added.
 ```markdown
 class Display3DENALK_Tools {
@@ -21,8 +21,8 @@ class Display3DENALK_Tools {
 };
 ```
 ### Tool structure
-All tools need to be surrounded by a class. All classes inside will be treated like a control.
-You are free to add whatever controls you want but we recomend to only use a text control and a value control.
+All tools need to be surrounded by a class. All classes inside will be treated like a control.  
+You are free to add whatever controls you want but we recomend to only use a text control and a value control.  
 ```markdown
 class Time
 {
