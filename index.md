@@ -21,7 +21,8 @@ class Display3DENALK_Tools {
 };
 ```
 ### Tool structure
-All tools need to be surrounded by a class. All classes inside will be treated like a control. <br/> 
+All tools need to be surrounded by a class. <br/>
+All classes inside will be treated like a control. <br/> 
 You are free to add whatever controls you want but we recomend to only use a text control and a value control.  
 ```markdown
 class Time
