@@ -115,9 +115,9 @@ class ValueX: ctrlCombo
 
 
 ### Example
-```
 Here is an example on how the Set time tool is added.
 ![Enviroment Eden2.0](https://i.imgur.com/cGKJeg9.jpg)
+
 ```markdown
 class ctrlStatic;
 class ctrlCombo;
